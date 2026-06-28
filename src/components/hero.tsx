@@ -129,7 +129,7 @@ export default function Hero() {
 
             <div className="mt-10 pt-8 border-t border-black/10">
               <p className="uppercase text-xs tracking-widest text-black/60 mb-1">BASED IN</p>
-              <p className="text-xl font-semibold">UKRAINE</p>
+              <p className="text-xl font-semibold">India</p>
             </div>
 
             <div className="mt-8">
