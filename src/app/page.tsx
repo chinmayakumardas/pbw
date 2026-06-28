@@ -2,9 +2,10 @@
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
-import Projects from "@/components/projects";
+import Projects from "@/components/featuredwork";
 import Contact from "@/components/contact";
 import { Services } from "@/components/services";
+import AboutMe from "@/components/aboutme";
 
 export default function HomePage() {
   return (
@@ -13,6 +14,7 @@ export default function HomePage() {
 
       <main>
         <Hero/>
+        <AboutMe/>
         <Projects />
         <Services/>
    

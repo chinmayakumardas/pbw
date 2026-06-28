@@ -14,15 +14,15 @@ const navLinks = [
 ];
 
 const socials = [
-  { label: "INSTAGRAM", href: "https://instagram.com/yourusername" },
-  { label: "TELEGRAM", href: "https://t.me/yourusername" },
-  { label: "FACEBOOK", href: "https://facebook.com/yourusername" },
+  { label: "INSTAGRAM", href: "https://instagram.com/builtbychinmay" },
+  { label: "YOUTUBE", href: "https://www.youtube.com/@builtbychinmay" },
+  { label: "FACEBOOK", href: "https://facebook.com/builtbychinmay" },
 ];
 
 const footerLinks = [
-  { label: "DRIBBBLE", href: "https://dribbble.com/yourusername" },
-  { label: "BEHANCE", href: "https://behance.net/yourusername" },
-  { label: "LINKEDIN", href: "https://linkedin.com/in/yourusername" },
+  { label: "BEHANCE", href: "https://behance.net/chinmaykumard" },
+  { label: "GITHUB", href: "https://github.com/chinmayakumardas" },
+  { label: "LINKEDIN", href: "https://linkedin.com/in/chinmayakumardas2" },
 ];
 
 export default function Footer() {
@@ -51,7 +51,8 @@ export default function Footer() {
   return (
     <footer
       ref={containerRef}
-      className="relative min-h-screen w-full overflow-hidden bg-white px-6 text-[#111] md:px-10"
+      id="connect"
+      className="relative min-h-screen w-full overflow-hidden px-6 text-[#111] md:px-10"
     >
       <div className="flex min-h-screen flex-col justify-between py-20 ">
         {/* ── Top Row ── */}

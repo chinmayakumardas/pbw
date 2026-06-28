@@ -111,21 +111,16 @@ export default function Projects() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="bg-white py-10 md:py-16">
-      <div className=" mx-auto px-4 lg:px-10">
+    <section id="projects" ref={sectionRef} >
+    {/* NEXT SECTION HEADER */}
+      <div className="bg-black min-h-[30vh] flex items-center justify-center">
+        <h2 className="text-[10vw] md:text-[10vw] font-black uppercase tracking-[-0.06em] text-white leading-none">
+          RECENT WORKS
+        </h2>
+      </div>
+   <div className="mx-auto px-4 lg:px-10 py-10 ">
 
-        {/* HEADER */}
-        <div className="flex justify-between items-center mb-10">
-          <h2 className="p-title text-sm md:text-base text-black">
-            Recents Projects
-          </h2>
-
-          <span className="p-year text-sm md:text-base text-black">
-            2024 - 2025
-          </span>
-        </div>
-
-        {/* GRID */}
+  
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
           {projects.map((item, i) => (
@@ -151,7 +146,10 @@ export default function Projects() {
           ))}
 
         </div>
-      </div>
+   </div>
+      
     </section>
   );
 }
+
+

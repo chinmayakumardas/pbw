@@ -7,40 +7,51 @@ import { cn } from "@/lib/utils";
 
 const navigationItems = [
   {
-    name: "Home",
-    href: "/",
-    description: "[0]",
+    name: "Web Design",
+    href: "#",
+    description: "[01]",
+    image:
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80",
   },
   {
-    name: "Components",
-    href: "/components",
-    description: "[1]",
+    name: "UI/UX Design",
+    href: "#",
+    description: "[02]",
+    image:
+      "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=1200&q=80",
   },
   {
-    name: "Pricing",
-    href: "/pricing",
-    description: "[2]",
+    name: "Web Development",
+    href: "#",
+    description: "[03]",
+    image:
+      "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200&q=80",
   },
   {
-    name: "How to use",
-    href: "/docs/quick-start",
-    description: "[3]",
+    name: "Brand Identity",
+    href: "#",
+    description: "[04]",
+    image:
+      "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?w=1200&q=80",
   },
   {
-    name: "Account",
-    href: "/user",
-    description: "[4]",
+    name: "Landing Pages",
+    href: "#",
+    description: "[05]",
+    image:
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80",
   },
   {
-    name: "Login",
-    href: "/login",
-    description: "[7]",
+    name: "3D & Motion Design",
+    href: "#",
+    description: "[06]",
+    image:
+      "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200&q=80",
   },
 ];
-
 export const Services = () => {
   return (
-    <ul className="bs flex min-h-screen w-full flex-1 flex-col items-center justify-center gap-1.5 rounded-2xl px-7 py-3 backdrop-blur-sm">
+    <section id="services" className="bs flex min-h-screen w-full flex-1 flex-col items-center justify-center gap-1.5 rounded-2xl px-7 py-3 backdrop-blur-sm">
       {navigationItems.map((item, index) => (
         <li
           className="relative flex cursor-pointer flex-col items-center overflow-visible"
@@ -49,16 +60,20 @@ export const Services = () => {
           <div className="relative flex items-start">
             <TextRoll
               center
-              className="text-4xl font-extrabold uppercase leading-[0.8] tracking-[-0.03em] transition-colors lg:text-5xl"
+              className="text-4xl font-extrabold uppercase leading-[0.8] tracking-[-0.03em] transition-colors lg:text-6xl"
             >
               {item.name}
             </TextRoll>
           </div>
         </li>
+        
       ))}
-    </ul>
+    </section>
+    
   );
 };
+
+
 
 const STAGGER = 0.035;
 

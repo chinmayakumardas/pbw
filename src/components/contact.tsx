@@ -71,7 +71,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="min-h-screen flex flex-col bg-white py-16 md:py-24">
+    <section id="contact" className="min-h-screen flex flex-col  py-16 md:py-24">
       <div className="mx-auto w-full max-w-7xl px-6 md:px-10">
         {/* Hero Text */}
       <div className="mx-auto   px-10">
